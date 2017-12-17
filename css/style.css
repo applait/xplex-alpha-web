@@ -36,6 +36,21 @@ body {
 header {
   padding: 8rem 0 4rem;
 }
+a {
+  outline:            0;
+  text-decoration:    none;
+}
+footer {
+  margin:             4rem auto;
+}
+footer img {
+  vertical-align:     middle;
+}
+footer a {
+  color:              #eee;
+  font-size:          1.25rem;
+  font-family:        "Alegreya Sans", sans-serif;
+}
 
 /* 1. ID & Class */
 #logo {
@@ -45,19 +60,21 @@ header {
 }
 .wordmark {
   font-weight:        bold;
-  font-family:        "Unica One", Roboto, sans-serif;
+  font-family:        "Unica One", sans-serif;
 }
+
 .brand.title {
   margin:             0 auto;
   font-size:          4rem;
-  font-family:        "Unica One", Roboto, sans-serif;
+  font-family:        "Unica One", sans-serif;
 }
 .brand.subtitle {
   margin:             0 auto;
   font-size:          2rem;
   font-weight:        400;
-  font-family:        "Alegreya Sans", Roboto, sans-serif;
+  font-family:        "Alegreya Sans", sans-serif;
 }
+
 .banner {
   color:              #1f252b;
   padding:            2rem;
@@ -100,6 +117,13 @@ header {
 }
 .feature .sigil strong {
   display:            block;
+}
+
+.social {
+  margin:             2rem auto;
+}
+.social a {
+  margin:             1rem;
 }
 
 
