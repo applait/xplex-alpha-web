@@ -21,19 +21,55 @@ html {
   height:             100%;
 }
 body {
+  color:              #eee;
   width:              100%;
   height:             100%;
   margin:             0;
   padding:            0;
   min-width:          320px;
+  background:         #1f252b;
   font-family:        Roboto, Sans-serif;
+  text-align:         center;
   -webkit-transform:  translateZ(0);
   transform:          translateZ(0);
 }
-
+header {
+  padding: 8rem 0 4rem;
+}
 
 /* 1. ID & Class */
-
+#logo {
+  width:              12rem;
+  height:             12rem;
+  margin:             2rem auto;
+}
+.wordmark {
+  font-weight:        bold;
+  font-family:        "Unica One", Roboto, sans-serif;
+}
+.brand.title {
+  margin:             0 auto;
+  font-size:          4rem;
+  font-family:        "Unica One", Roboto, sans-serif;
+}
+.brand.subtitle {
+  margin:             0 auto;
+  font-size:          2rem;
+  font-weight:        400;
+  font-family:        "Alegreya Sans", Roboto, sans-serif;
+}
+.banner {
+  color:              #1f252b;
+  padding:            2rem;
+  background:         linear-gradient(to right, rgba(240,240,240,0) 0%,rgba(240,240,240,0.75) 40%,rgba(240,240,240,0.75) 60%,rgba(240,240,240,0) 100%);
+  border:             dashed #1f252b;
+  border-width:       2px 0;
+}
+.banner .notice {
+  margin:             0 auto;
+  width:              60rem;
+  font-size:          1.25rem;
+}
 
 /* 2. Pseudoclass */
 
