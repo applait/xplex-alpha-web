@@ -71,7 +71,55 @@ header {
   font-size:          1.25rem;
 }
 
+.feature {
+  margin:             4rem auto;
+  width:              60rem;
+}
+.feature h1 {
+  font-size:          3rem;
+  font-weight:        normal;
+  font-family:        "Unica One", sans-serif;
+}
+.feature .entry {
+  margin:             4rem auto;
+  display:            flex;
+  align-items:        center;
+  justify-content:    center;
+}
+.feature .sigil {
+  flex:               1 0 30%;
+  line-height:        1;
+  font-size:          2.5rem;
+  font-family:        "Alegreya Sans", sans-serif;
+}
+.feature .details {
+  flex:               1 1 auto;
+  font-size:          1.5rem;
+  line-height:        1.5;
+  font-family:        "Alegreya Sans", sans-serif;
+}
+.feature .sigil strong {
+  display:            block;
+}
+
+
 /* 2. Pseudoclass */
+.feature .entry:nth-child(odd) .sigil {
+  text-align:         left;
+  padding-left:       2rem;
+}
+.feature .entry:nth-child(odd) .details {
+  text-align:         right;
+  padding-right:      2rem;
+}
+.feature .entry:nth-child(even) .sigil {
+  text-align:         right;
+  padding-right:      2rem;
+}
+.feature .entry:nth-child(even) .details {
+  text-align:         left;
+  padding-left:       2rem;
+}
 
 
 /* 3. Media Queries */
