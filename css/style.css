@@ -78,7 +78,7 @@ footer a {
 .banner {
   color:              #1f252b;
   padding:            2rem;
-  background:         linear-gradient(to right, rgba(240,240,240,0) 0%,rgba(240,240,240,0.75) 40%,rgba(240,240,240,0.75) 60%,rgba(240,240,240,0) 100%);
+  background:         #ccc;
   border:             dashed #1f252b;
   border-width:       2px 0;
   cursor:             pointer;
