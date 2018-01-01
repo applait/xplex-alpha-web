@@ -109,10 +109,7 @@ footer a {
   justify-content:    center;
 }
 .feature .sigil {
-  flex:               1 0 30%;
-  line-height:        1;
-  font-size:          2.5rem;
-  font-family:        "Alegreya Sans", sans-serif;
+  flex:               1 0 20%;
 }
 .feature .details {
   flex:               1 1 auto;
@@ -120,8 +117,10 @@ footer a {
   line-height:        1.5;
   font-family:        "Alegreya Sans", sans-serif;
 }
-.feature .sigil strong {
-  display:            block;
+.feature .label {
+  line-height:        1;
+  font-size:          2.5rem;
+  font-family:        "Alegreya Sans", sans-serif;
 }
 
 .social {
@@ -134,20 +133,19 @@ footer a {
 
 /* 2. Pseudoclass */
 .feature .entry:nth-child(odd) .sigil {
-  text-align:         left;
-  padding-left:       2rem;
+  order:              2;
 }
 .feature .entry:nth-child(odd) .details {
+  order:              1;
   text-align:         right;
-  padding-right:      2rem;
+  padding-right:      4rem;
 }
 .feature .entry:nth-child(even) .sigil {
-  text-align:         right;
-  padding-right:      2rem;
+  /*  */
 }
 .feature .entry:nth-child(even) .details {
   text-align:         left;
-  padding-left:       2rem;
+  padding-left:       4rem;
 }
 
 
